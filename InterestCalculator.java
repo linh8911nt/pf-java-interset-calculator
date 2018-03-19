@@ -19,7 +19,7 @@ public class InterestCalculator {
 
         double interset = money * (interset_rate/100)/12;
 
-        for (int i = 0; i < month; i++){
+        for (int i = 1; i < month; i++){
             interset = interset + money * (interset_rate/100)/12;
         }
         System.out.println(interset + "tiền lãi");
